@@ -27,13 +27,18 @@ export default class About extends Component {
 
                   <h2>Contact Details</h2>
                   <p className="address">
-       						<span>{resumeData.name}</span>
+       						<span>Full Name: Elijah Davis</span>
                      <br></br>
        						   <span>
-                     {resumeData.address}
+                     <span>Current Location: San Diego</span>
                     </span>
                     <br></br>
-                    <span>{resumeData.website}</span>
+                    <span>Email: elijahgdavis1999@gmail.com</span>
+                    <br></br>
+                    <span>Phone Number: 619-772-3019</span>
+                    <br></br>
+                    <span>Downloadable Resume: </span>
+                    <a href="https://elijahig.github.io/portfolio/resume.pdf">Resume</a>
        					   </p>
                   </div>
                </div>
